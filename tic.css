@@ -28,18 +28,18 @@ body {
     margin: 0 auto;
 }
 .start-board p {
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     width: 50ch;
-    margin: 10px auto 20px;
+    margin: 20px auto;
 }
 .start-board button {
     border-radius: 20px;
     background-color: black;
     border: 2px solid white;
     width: max-content;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: 15px 25px;
+    font-size: 22px;
     color: white;
     font-weight: bold;
     transition: 0.5s ;
@@ -54,8 +54,8 @@ body {
     background-color: transparent;
     border-radius: 50%;
     border: 9px solid white;
-    height: 73px;
-    width: 73px;
+    height: 80px;
+    width: 80px;
 }
 .game {
     display: flex;
@@ -66,7 +66,7 @@ body {
 }
 ul {
     display: grid;
-    grid-template-columns: repeat(3,121px);
+    grid-template-columns: repeat(3,140px);
     gap: 4px;
     background-color: white;
 }
@@ -76,11 +76,11 @@ ul {
 ul li {
     list-style: none;
     background-color:black;
-    height: 110px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 150px;
+    font-size: 170px;
     font-weight: bold;
     color: white;
 }
@@ -104,7 +104,7 @@ li div {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 .result-board .result span:last-of-type {
@@ -137,14 +137,14 @@ li div {
 }
 @media (max-width:767px) {
     .start-board h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .start-board p {
-        width: 35ch;
+        width: 30ch;
     }
     .start-board button {
         padding: 10px 15px;
-        font-size: 17px;
+        font-size: 20px;
     }
     ul {
         grid-template-columns: repeat(3,100px);
