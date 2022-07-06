@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="start-board">
+        <h1>Tic Tac Toe Game</h1>
+        <p>Tic-tac-toe is a game in which two players take turns in drawing either an ' O' or an ' X' in one square of a grid consisting of nine squares. 
+            The winner is the first player to get three of the same symbols in a row .</p>
+            <button>Let's Play</button>
+    </div>
+    <div class="game hide">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="result-board ">
+            <div class="result">
+                <span>Player(<ion-icon name="close-outline"></ion-icon>)</span>
+                <span class="p1">0</span>
+            </div>
+            <div class="result">
+                <span>Tie</span>
+                <span class="tie">0</span>
+            </div>
+            <div class="result">
+                <span>Player(<ion-icon name="radio-button-off-outline"></ion-icon>)</span>
+                <span class="p2">0</span>
+            </div>
+        </div>
+    </div>
+    <!-- for import shapes in JS  -->
+    <div class="x">&times;</div>
+    <div class="o"></div>
+    <script src="tic.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
